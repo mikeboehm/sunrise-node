@@ -1,0 +1,26 @@
+{
+  "name": "sunrise",
+  "version": "1.0.0",
+  "description": "Fork of https://github.com/wmiel/sunrise for Nodejs",
+  "main": "sunrise.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine-node spec/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikeboehm/sunrise-node.git"
+  },
+  "keywords": [
+    "sunrise",
+    "sunset"
+  ],
+  "author": "Wojciech Mielczarek with changes by Mike Boehm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikeboehm/sunrise-node/issues"
+  },
+  "homepage": "https://github.com/mikeboehm/sunrise-node#readme",
+  "dependencies": {
+    "jasmine-node": "^1.14.5"
+  }
+}
