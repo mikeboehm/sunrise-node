@@ -1,8 +1,8 @@
 {
-  "name": "sunrise",
+  "name": "sunrise-node",
   "version": "1.0.0",
   "description": "Fork of https://github.com/wmiel/sunrise for Nodejs",
-  "main": "sunrise.js",
+  "main": "sunrise-node.js",
   "scripts": {
     "test": "./node_modules/.bin/jasmine-node spec/"
   },

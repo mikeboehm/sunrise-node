@@ -1,4 +1,4 @@
-var sunrise = require('../sunrise.js');
+var sunrise = require('../sunrise-node.js');
 
 describe("Sunrise library", function () {
     var sunriser = sunrise();
