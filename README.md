@@ -1,17 +1,18 @@
 Sunrise
 =======
-It's simple JavaScript module which may be used to sunrise and sunset time calculation in given place.
+It's simple Nodejs module which may be used to sunrise and sunset time calculation in given place.
 
+Forked from https://github.com/wmiel/sunrise
 
-Todolist:
-
-- add google maps visualization / location selection
-- calculate altitude of sun at given time
 
 
 Usage:
+`$ npm install --save https://github.com/mikeboehm/sunrise-node.git`
+
 -
-    var sunriser = sunrise();
+    var sunrise = require('sunrise-node');
+    var sunriser = new sunrise();
+
     sunriser.
         setDate(new Date(Date.UTC(2012, 2, 18))).
         setLocation({"latitude":{d:50, m:3, s:41}, "longitude":{d:19, m:56, s:18}});
@@ -21,8 +22,8 @@ Usage:
       set: { h: 16, m: 50, s: 8.266904495882045 },
       daytime: { h: 12, m: 3, s: 53.5673237583178 } }
     */
- 
- 
+
+
 Calculations based on:
 -
 1. http://www.navipedia.pl/,
